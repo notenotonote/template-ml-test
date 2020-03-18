@@ -1,6 +1,8 @@
+import sys
 import pytest
 import numpy as np
-from ..src.model import MyModel, BaseModel
+sys.path.append('../src')
+from src.model import MyModel, BaseModel
 from sklearn.metrics import mean_squared_error
 
 ########################################################################################################################
